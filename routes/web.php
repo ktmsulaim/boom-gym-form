@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\WebsiteController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
@@ -20,3 +21,8 @@ Auth::routes(['register' => false]);
 Route::get('/', [WebsiteController::class, 'index'])->name('welcome');
 Route::post('/appointment', [WebsiteController::class, 'makeAppointment'])->name('appointment.make');
 Route::get('/success', [WebsiteController::class, 'success'])->name('appointment.success');
+
+Route::middleware('auth')->group(function(){
+    Route::get('/home', [HomeController::class, 'index'])->name('home');
+    Route::post('/export', [HomeController::class, 'export'])->name('export');
+});

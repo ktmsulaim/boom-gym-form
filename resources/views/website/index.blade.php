@@ -25,9 +25,9 @@
         <div class="wrap-input100 validate-input" data-validate = "Gender is required">
             <span class="label-input100">Gender:</span>
             <select name="gender" id="gender" class="input100" required>
-                <option value="male" selected>Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
+                <option value="Male" selected>Male</option>
+                <option value="Female">Female</option>
+                <option value="Osther">Other</option>
             </select>
             <span class="focus-input100"></span>
         </div>
