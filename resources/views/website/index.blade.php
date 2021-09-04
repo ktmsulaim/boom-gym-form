@@ -72,7 +72,8 @@
                     <span class="radio__label">Fitness Improvement</span>
                   </label>
             </div>
-            <div>
+            
+            {{-- <div>
                 <label class="checkbox">
                     <span class="checkbox__input">
                       <input type="checkbox" name="goals[]" value="Injury Rehab/Recovery">
@@ -120,6 +121,7 @@
                     <span class="radio__label">Event Specific</span>
                   </label>
             </div>
+             --}}
             <div>
                 <label class="checkbox">
                     <span class="checkbox__input">

@@ -47,10 +47,12 @@
                                         <option {{ $goals && in_array('Fat Loss', $goals) ? 'selected' : null }} value="Fat Loss">Fat Loss</option>
                                         <option {{ $goals && in_array('Muscle Building', $goals) ? 'selected' : null }} value="Muscle Building">Muscle Building</option>
                                         <option {{ $goals && in_array('Fitness Improvement', $goals) ? 'selected' : null }} value="Fitness Improvement">Fitness Improvement</option>
-                                        <option {{ $goals && in_array('Injury Rehab/Recovery">', $goals) ? 'selected' : null }} value="Injury Rehab/Recovery">Injury Rehab/Recovery</option>
+                                        
+                                        {{-- <option {{ $goals && in_array('Injury Rehab/Recovery">', $goals) ? 'selected' : null }} value="Injury Rehab/Recovery">Injury Rehab/Recovery</option>
                                         <option {{ $goals && in_array('Strength Building', $goals) ? 'selected' : null }} value="Strength Building">Strength Building</option>
                                         <option {{ $goals && in_array('Body Transformation', $goals) ? 'selected' : null }} value="Body Transformation">Body Transformation</option>
-                                        <option {{ $goals && in_array('Event Specific', $goals) ? 'selected' : null }} value="Event Specific">Event Specific</option>
+                                        <option {{ $goals && in_array('Event Specific', $goals) ? 'selected' : null }} value="Event Specific">Event Specific</option> --}}
+
                                         <option {{ $goals && in_array('Other', $goals)  ? 'selected' : null}} value="Other">Other</option>
                                     </select>
                                 </div>
