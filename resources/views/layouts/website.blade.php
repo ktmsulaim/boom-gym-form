@@ -39,7 +39,7 @@
                     <img src="{{ asset('website/images/logo.png') }}" alt="Boom Gym Logo">
                 </span>
 				<span class="contact100-form-title-1">
-					Book your free consultation
+					The Best Place for your fitness
 				</span>
 
 				<span class="contact100-form-title-2">

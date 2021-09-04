@@ -5,8 +5,8 @@
         @csrf
 
         <div class="wrap-input100 validate-input" data-validate="Name is required">
-            <span class="label-input100">Full Name:</span>
-            <input class="input100" type="text" name="name" placeholder="Enter full name" required>
+            <span class="label-input100">Name:</span>
+            <input class="input100" type="text" name="name" placeholder="Enter name" required>
             <span class="focus-input100"></span>
         </div>
 
